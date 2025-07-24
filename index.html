@@ -5,9 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>❤️小邝</title>
 </head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .grid {
+        width: 100%;
+        /* height: 200vw; */
+        display: grid;
+        grid-template-columns: 33.33vw 33.33vw 33.33vw;
+        grid-template-rows: repeat(3, 44vw);
+    }
+
+    img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 保持宽高比，裁剪多余部分 */
+            object-position: center; /* 居中裁剪 */
+        }
+</style>
 <body>
-    <div>
-        maybe its a page
+    <div class="grid">
+        <div>
+            <img src="./images/2.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./images/3.jpeg" alt="">
+        </div>
+        
+        <div>
+            <img src="./images/4.jpeg" alt="">
+        </div>
+        
+        <div>
+            <img src="./images/5.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./images/1.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./images/6.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./images/7.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./images/8.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./images/9.jpeg" alt="">
+        </div>
     </div>
 </body>
 </html>
